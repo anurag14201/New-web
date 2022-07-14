@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(pexels-pixabay-35888.png);
+    background-size: cover;
+    background-position: center;
+}
+
+span {
+    color: rgb(190, 75, 25);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+
+.logo {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+nav li ul {
+    list-style-type: none;
+    display: inline block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: rgb(166, 35, 213);
+    transition: .4s;
+}
+
+.btn {
+    background-color: rgb(247, 10, 10);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: transfrom .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+
+}
