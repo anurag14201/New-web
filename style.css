@@ -79,3 +79,62 @@ nav ul li a:hover {
     transform: scale(1.2);
 
 }
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+
+h4 {
+    color: blueviolet;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.newsletter form {
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+
+}
+
+.newsletter form input:first-child {
+    display: inline block;
+    width: 100%;
+    padding: 14px 150px 14px 15px;
+    border: 2px solid rgb(247, 10, 10);
+    outline: none;
+    border-radius: 35px;
+
+}
+
+.newsletter form input:last-child {
+    display: inline-block;
+    position: absolute;
+    outline: none;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(247, 10, 10);
+    color: white;
+    box-shadow: 0px 0px 5px 0px 0px 15px;
+    top: 6px;
+    right: 6px;
+
+
+}
