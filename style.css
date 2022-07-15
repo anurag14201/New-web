@@ -212,3 +212,8 @@ button:hover {
     cursor: pointer;
 
 }
+
+footer p {
+    text-align: center;
+    color: black;
+}
