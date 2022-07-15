@@ -160,13 +160,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-.main {
-    color: white;
-    font-size: 35px;
-    width: 550px;
-
+    padding: 200px 100px;
 }
 
 .button {
@@ -178,15 +172,43 @@ h4 {
 }
 
 .main h2 {
+    color: whitesmoke;
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 25px;
 }
 
 .main h5 {
+    color: white;
     letter-spacing: 2px;
     text-transform: capitalize;
     margin-bottom: 25px;
     font-size: 22px;
+
+}
+
+.main p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    line-height: 28px;
+}
+
+button {
+    background-color: rgb(247, 10, 10);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid rgb(247, 10, 10);
+    cursor: pointer;
 
 }
