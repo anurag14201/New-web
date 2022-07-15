@@ -19,7 +19,7 @@ h1 {
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(pexels-pixabay-35888.png);
+    background-image: url(musk.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -137,4 +137,12 @@ h4 {
     right: 6px;
 
 
+}
+
+.another {
+    height: 130vh;
+    width: 100%;
+    background-image: url(light.jpg);
+    background-size: cover;
+    background-position: center;
 }
